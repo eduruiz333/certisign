@@ -43,7 +43,6 @@ const api_certisign = {
                         <p class="expiration">Validade ${expiration} meses</p>
                         <p class="type">Tipo ${type}</p>
                         <a class="buy btn btn-outline-secondary" href="${buy}" title="Comprar este produto" target="_blank">Comprar</a>
-                        <a class="card-id" href="#" id="${cardId}" data-toggle="modal" data-target="#productModal" onClick="aqui()">
                         <a class="card-id" href="#" id="${cardId}" data-toggle="modal" data-target="#productModal" onClick="getId(this.id)">
                             <i class="fas fa-plus-circle"></i>
                             Saiba mais
